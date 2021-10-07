@@ -1,0 +1,7 @@
+<!-- add references to your resume too & get a cover letter -->
+<!-- Power Message pattern EAT: E- Education  A- Accomplishment  T- Talents -->
+<!-- Hello my name is Lashonda Miller, I've just completed Max Technical Training, and prior to this
+I've Completed two other boot camps (one for Fullstack Javascript webdev and the other for cyber security ) I've also had
+the chance to intern as a frontend developer for Jeff Wyler, and all of that has led me to apprenti and MAX.
+And I look forward to using my skills to help innovate and collaborate with future teams. And I am also proud to say
+that I am a certified Professional Scrum Master. -->
