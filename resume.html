@@ -4,22 +4,261 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>L Miller - Software Developer Resume</title>
+    <title>L Miller - Software Engineer Resume</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="CSS/styles.css" />
 </head>
 <body>
 
-    <header class="header-1" id="header">
-        <nav class="bd-container">
-            
-        </nav>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Miller</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-smile nav__icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2 nav__icon'></i>Experience
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-home-smile'></i>Home
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
     </header>
 
-    <main class="main-1 bd-container">
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="./Assets/Initials.webp" alt="" class="home__img">
 
+                            <h1 class="home__title"><b>Lashonda</b> Miller</h1>
+                            <h3 class="home__profession">Software Engineer</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <a download="" href="./Assets/PDF/" class="home__button-movil">Download</a>
+                        </div>
+                    
+                    
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> USA
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> lashondamiller007@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> (513) 306-3912
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+
+                </section>          
+                
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/lashonda-miller-91723b1b1/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @Lashonda Miller
+                        </a>
+                        <a href="https://github.com/LashondaM" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> @LashondaM
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">I am a software engineer with experience in C# .Net, ASP.NET Web API, Entity Framework, Test Driven Development, APIs, SQL, and JavaScript. I am driven to benefiting the team and coming up with creative solutions to get the tasks done, while also being able to pick up new technologies along the process.</p>
+                </section>
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Full Stack Developer .Net / Java - Software Engineering</h3>
+                                <span class="education__studies">MAX Technical Training & Career Programs</span>
+                                <span class="education__year">Sep 2021 - Dec 2021</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Cyber Security</h3>
+                                <span class="education__studies">Kable Academy</span>
+                                <span class="education__year">Mar 2021 - Jun 2021</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Full Stack JavaScript Developer</h3>
+                                <span class="education__studies">Kable Academy</span>
+                                <span class="education__year">Jun 2020 - Sep 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C#
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Java
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Postman
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Swagger
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> ASP.NET Web API
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Entity Framework
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Rest APIs
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> TDD
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Angular
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Software Operations Analyst Engineer 1</h3>
+                                <span class="experience__company">Paycor | Jan 2022 - Present</span>
+                                <p class="experience__description">I modified and maintained existing software, working closely with end-users, IT peers and management. Made changes to prevent recurrence, modified existing code and faulty files, wrote and ran special programs. Also participated in unit, integration, and business acceptance testing of the applications.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Frontend Developer</h3>
+                                <span class="experience__company">Jeff Wyler Automotive | Nov 2020 - Feb 2021</span>
+                                <p class="experience__description">Led a special history timeline project collaboratively with the designers for the Wyler website, also built for mobile responsiveness. Completed User Interface analysis of the website menus by reviewing Google Analytics data for optimizing the website experience to be more consumer-facing. Participated in meetings to give a fresh insight on decisions for the future.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Teacher Assistant</h3>
+                                <span class="experience__company">Kable Academy | Oct 2020 - Jan 2021</span>
+                                <p class="experience__description">Helped form notes for the curriculum the students were going to learn. Handled issues such as debugging for updated React JS framework and Node JS.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>        
     </main>
-    hello
+
+    <!--========== SCROLL TOP ==========-->
+    
+
+    <!--========== HTML2PDF ==========-->
+    <!-- <script src="assets/js/html2pdf.bundle.min.js"></script> -->
 
     <script src="JS/main.js"></script>
 </body>
