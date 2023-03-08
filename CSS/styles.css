@@ -432,6 +432,10 @@ img{
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
+li{
+    list-style: circle;
+}
+
 .education__content, .experience__content{
     display: flex;
     color: var(--text-color);
